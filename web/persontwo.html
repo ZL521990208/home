@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2017年感动中国人物</title>
+    <style type="text/css">
+        * {
+            margin:0;
+            padding:0;
+        }
+        body {
+            overflow:hidden;
+            perspective:2000px;
+        }
+        ul {
+            position:relative;
+            width:400px;
+            height:400px;
+            margin:100px auto;
+            list-style:none;
+            transform-style:preserve-3d;
+            transform:rotateX(-10deg) rotateY(0deg);
+            animation:flash 12s linear infinite 1.2s;
+        }
+        ul:hover {
+            animation-play-state:paused;
+        }
+        ul li {
+            font-size:52px;
+            text-align:center;
+            line-height:400px;
+            color:#fff;
+            width:50%;
+            height:50%;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transition:all 0.2s ease;
+        }
+        ul li:hover {
+            width:300px;
+            height:450px;
+            top:40%;
+        }
+        ul li img {
+            width: 300px;
+            height: 450px;
+        }
+        ul li:nth-child(1) {
+            transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px) translateX(-50%) translateY(-50%);
+            background:lightslategrey;
+            animation:flash1 1.3s ease forwards;
+        }
+        ul li:nth-child(2) {
+            transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px) translateX(-50%) translateY(-50%);
+            background:darkslateblue;
+            animation:flash2 1.3s ease forwards;
+        }
+        ul li:nth-child(3) {
+            transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px);
+            background:darkseagreen;
+            animation:flash3 1.3s ease forwards;
+        }
+        ul li:nth-child(4) {
+            transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px);
+            background:slateblue;
+            animation:flash4 1.3s ease forwards;
+        }
+        ul li:nth-child(5) {
+            transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px);
+            background:saddlebrown;
+            animation:flash5 1.3s ease forwards;
+        }
+        ul li:nth-child(6) {
+            transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px);
+            background:salmon;
+            animation:flash6 1.3s ease forwards;
+        }
+        ul li:nth-child(7) {
+            transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px);
+            background:sandybrown;
+            animation:flash7 1.3s ease forwards;
+        }
+        ul li:nth-child(8) {
+            transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px);
+            background:seagreen;
+            animation:flash8 1.3s ease forwards;
+        }
+        ul li:nth-child(9) {
+            transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px);
+            background:seagreen;
+            animation:flash8 1.3s ease forwards;
+        }
+        ul li:nth-child(10) {
+            transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px);
+            background:seagreen;
+            animation:flash8 1.3s ease forwards;
+        }
+        @keyframes flash {
+            from {
+                transform:rotateX(-10deg) rotateY(0deg);
+            }
+            to {
+                transform:rotateX(-10deg) rotateY(360deg);
+            }
+        }@keyframes flash1 {
+             from {
+                 transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px);
+             }
+             to {
+                 transform:translateX(-50%) translateY(-50%) rotateY(45deg) translateZ(600px);
+             }
+         }@keyframes flash2 {
+              from {
+                  transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px);
+              }
+              to {
+                  transform:translateX(-50%) translateY(-50%) rotateY(90deg) translateZ(600px);
+              }
+          }@keyframes flash3 {
+               from {
+                   transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px);
+               }
+               to {
+                   transform:translateX(-50%) translateY(-50%) rotateY(135deg) translateZ(600px);
+               }
+           }@keyframes flash4 {
+                from {
+                    transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px);
+                }
+                to {
+                    transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px);
+                }
+            }@keyframes flash5 {
+                 from {
+                     transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px);
+                 }
+                 to {
+                     transform:translateX(-50%) translateY(-50%) rotateY(225deg) translateZ(600px);
+                 }
+             }@keyframes flash6 {
+                  from {
+                      transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px);
+                  }
+                  to {
+                      transform:translateX(-50%) translateY(-50%) rotateY(270deg) translateZ(600px);
+                  }
+              }@keyframes flash7 {
+                   from {
+                       transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px);
+                   }
+                   to {
+                       transform:translateX(-50%) translateY(-50%) rotateY(315deg) translateZ(600px);
+                   }
+               }@keyframes flash8 {
+                    from {
+                        transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px);
+                    }
+                    to {
+                        transform:translateX(-50%) translateY(-50%) rotateY(360deg) translateZ(600px);
+                    }
+                }@keyframes flash9 {
+                     from {
+                         transform:translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(600px);
+                     }
+                     to {
+                         transform:translateX(-50%) translateY(-50%) rotateY(405deg) translateZ(600px);
+                     }
+                 }@keyframes flash10 {
+                      from {
+                          transform:translateX(-50%) translateY(-50%) rotateY(450deg) translateZ(600px);
+                      }
+                      to {
+                          transform:translateX(-50%) translateY(-50%) rotateY(360deg) translateZ(600px);
+                      }
+                  }
+
+    </style>
+</head>
+<body>
+<ul>
+    <li>
+        <img src="/images/a1.jpg" alt="">
+    </li>
+    <li>
+        <img src="/images/a2.jpg" alt="">
+    </li>
+    <li>
+        <img src="/images/a3.jpg" alt="">
+    </li>
+    <li>
+        <img src="/images/a4.jpg" alt="">
+    </li>
+    <li>
+        <img src="/images/a5.jpg" alt="">
+    </li>
+    <li>
+        <img src="/images/a6.jpg" alt="">
+    </li>
+    <li>
+        <img src="/images/a7.jpg" alt="">
+    </li>
+    <li>
+        <img src="/images/a8.jpg" alt="">
+    </li>
+    <li>
+        <img src="/images/a9.jpg" alt="">
+    </li>
+    <li>
+        <img src="/images/a10.jpg" alt="">
+    </li>
+</ul>
+</body>
+</html>
